@@ -32,7 +32,7 @@ LICENSE = "MIT"
 
 setup(
     name=NAME,
-    version='0.0.2',
+    version='0.0.3',
     description=DESCRIPTION,
     long_description='qaservicedetect',
     classifiers=[
@@ -41,7 +41,7 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
     ],
-    install_requires=['pika==1.0.0b1', 'quantaxis>=1.4.8', 'pymongo', 'click'],
+    install_requires=['pika==1.0.0b1', 'pymongo', 'click'],
     entry_points={
         'console_scripts': [
             'qas_detect = qaservicedetect.__init__:detect',
