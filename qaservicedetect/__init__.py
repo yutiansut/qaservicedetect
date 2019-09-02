@@ -29,5 +29,3 @@ def detect(mongoip, mongoport, mqhost, mqport, mquser, mqpwd):
                                   )
     )
     print('rabbitmq detect finished')
-
-
